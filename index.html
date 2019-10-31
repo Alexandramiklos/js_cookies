@@ -1,12 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
 </head>
+
 <body>
-<script src="index.js"></script>
+	<div class="weatherCookie">
+	<h1>cookie: how will this day be?</h1>
+	<label><input class="radio" type="radio" name="scale" value="Celsius"> Celsius</label><br>
+	<label><input class="radio" type="radio" name="scale" value="Fahrenheit"> Fahrenheit</label><br>
+	<span></span>
+	</div>
+
+	<div class="weatherLocal">
+	<h1>local storage: Today's weather?</h1>
+	<label><input class="radio" type="radio" name="scale_local" value="Celsius"> Celsius</label><br>
+	<label><input class="radio" type="radio" name="scale_local" value="Fahrenheit"> Fahrenheit</label><br>
+	<span></span>
+	</div>
+
+	<script src="src/indexCookie.js">
+	</script>
+	<script src="src/indexLocalStorage.js">
+	</script>
+
 </body>
+
 </html>
